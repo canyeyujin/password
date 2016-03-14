@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AA321871C96DBFA004B10AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA321861C96DBFA004B10AF /* AppDelegate.swift */; };
+		7AA321891C96DBFA004B10AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA321881C96DBFA004B10AF /* ViewController.swift */; };
+		7AA3218C1C96DBFA004B10AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA3218A1C96DBFA004B10AF /* Main.storyboard */; };
+		7AA3218E1C96DBFA004B10AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA3218D1C96DBFA004B10AF /* Assets.xcassets */; };
+		7AA321911C96DBFA004B10AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA3218F1C96DBFA004B10AF /* LaunchScreen.storyboard */; };
+		7AA3219C1C96DBFA004B10AF /* PayAlertViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA3219B1C96DBFA004B10AF /* PayAlertViewTests.swift */; };
+		7AA321A71C96DBFA004B10AF /* PayAlertViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA321A61C96DBFA004B10AF /* PayAlertViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AA321981C96DBFA004B10AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AA3217B1C96DBFA004B10AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AA321821C96DBFA004B10AF;
+			remoteInfo = PayAlertView;
+		};
+		7AA321A31C96DBFA004B10AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AA3217B1C96DBFA004B10AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AA321821C96DBFA004B10AF;
+			remoteInfo = PayAlertView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7AA321831C96DBFA004B10AF /* PayAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA321861C96DBFA004B10AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AA321881C96DBFA004B10AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7AA3218B1C96DBFA004B10AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AA3218D1C96DBFA004B10AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AA321901C96DBFA004B10AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AA321921C96DBFA004B10AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA321971C96DBFA004B10AF /* PayAlertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayAlertViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA3219B1C96DBFA004B10AF /* PayAlertViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayAlertViewTests.swift; sourceTree = "<group>"; };
+		7AA3219D1C96DBFA004B10AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA321A21C96DBFA004B10AF /* PayAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA321A61C96DBFA004B10AF /* PayAlertViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayAlertViewUITests.swift; sourceTree = "<group>"; };
+		7AA321A81C96DBFA004B10AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AA321801C96DBFA004B10AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA321941C96DBFA004B10AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA3219F1C96DBFA004B10AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AA3217A1C96DBFA004B10AF = {
+			isa = PBXGroup;
+			children = (
+				7AA321851C96DBFA004B10AF /* PayAlertView */,
+				7AA3219A1C96DBFA004B10AF /* PayAlertViewTests */,
+				7AA321A51C96DBFA004B10AF /* PayAlertViewUITests */,
+				7AA321841C96DBFA004B10AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AA321841C96DBFA004B10AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AA321831C96DBFA004B10AF /* PayAlertView.app */,
+				7AA321971C96DBFA004B10AF /* PayAlertViewTests.xctest */,
+				7AA321A21C96DBFA004B10AF /* PayAlertViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AA321851C96DBFA004B10AF /* PayAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				7AA321861C96DBFA004B10AF /* AppDelegate.swift */,
+				7AA321881C96DBFA004B10AF /* ViewController.swift */,
+				7AA3218A1C96DBFA004B10AF /* Main.storyboard */,
+				7AA3218D1C96DBFA004B10AF /* Assets.xcassets */,
+				7AA3218F1C96DBFA004B10AF /* LaunchScreen.storyboard */,
+				7AA321921C96DBFA004B10AF /* Info.plist */,
+			);
+			path = PayAlertView;
+			sourceTree = "<group>";
+		};
+		7AA3219A1C96DBFA004B10AF /* PayAlertViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AA3219B1C96DBFA004B10AF /* PayAlertViewTests.swift */,
+				7AA3219D1C96DBFA004B10AF /* Info.plist */,
+			);
+			path = PayAlertViewTests;
+			sourceTree = "<group>";
+		};
+		7AA321A51C96DBFA004B10AF /* PayAlertViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7AA321A61C96DBFA004B10AF /* PayAlertViewUITests.swift */,
+				7AA321A81C96DBFA004B10AF /* Info.plist */,
+			);
+			path = PayAlertViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AA321821C96DBFA004B10AF /* PayAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA321AB1C96DBFA004B10AF /* Build configuration list for PBXNativeTarget "PayAlertView" */;
+			buildPhases = (
+				7AA3217F1C96DBFA004B10AF /* Sources */,
+				7AA321801C96DBFA004B10AF /* Frameworks */,
+				7AA321811C96DBFA004B10AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayAlertView;
+			productName = PayAlertView;
+			productReference = 7AA321831C96DBFA004B10AF /* PayAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AA321961C96DBFA004B10AF /* PayAlertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA321AE1C96DBFA004B10AF /* Build configuration list for PBXNativeTarget "PayAlertViewTests" */;
+			buildPhases = (
+				7AA321931C96DBFA004B10AF /* Sources */,
+				7AA321941C96DBFA004B10AF /* Frameworks */,
+				7AA321951C96DBFA004B10AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AA321991C96DBFA004B10AF /* PBXTargetDependency */,
+			);
+			name = PayAlertViewTests;
+			productName = PayAlertViewTests;
+			productReference = 7AA321971C96DBFA004B10AF /* PayAlertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7AA321A11C96DBFA004B10AF /* PayAlertViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA321B11C96DBFA004B10AF /* Build configuration list for PBXNativeTarget "PayAlertViewUITests" */;
+			buildPhases = (
+				7AA3219E1C96DBFA004B10AF /* Sources */,
+				7AA3219F1C96DBFA004B10AF /* Frameworks */,
+				7AA321A01C96DBFA004B10AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AA321A41C96DBFA004B10AF /* PBXTargetDependency */,
+			);
+			name = PayAlertViewUITests;
+			productName = PayAlertViewUITests;
+			productReference = 7AA321A21C96DBFA004B10AF /* PayAlertViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AA3217B1C96DBFA004B10AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = fengzhi;
+				TargetAttributes = {
+					7AA321821C96DBFA004B10AF = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 8HEYH4N92J;
+					};
+					7AA321961C96DBFA004B10AF = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 8HEYH4N92J;
+						TestTargetID = 7AA321821C96DBFA004B10AF;
+					};
+					7AA321A11C96DBFA004B10AF = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 8HEYH4N92J;
+						TestTargetID = 7AA321821C96DBFA004B10AF;
+					};
+				};
+			};
+			buildConfigurationList = 7AA3217E1C96DBFA004B10AF /* Build configuration list for PBXProject "PayAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AA3217A1C96DBFA004B10AF;
+			productRefGroup = 7AA321841C96DBFA004B10AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AA321821C96DBFA004B10AF /* PayAlertView */,
+				7AA321961C96DBFA004B10AF /* PayAlertViewTests */,
+				7AA321A11C96DBFA004B10AF /* PayAlertViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AA321811C96DBFA004B10AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA321911C96DBFA004B10AF /* LaunchScreen.storyboard in Resources */,
+				7AA3218E1C96DBFA004B10AF /* Assets.xcassets in Resources */,
+				7AA3218C1C96DBFA004B10AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA321951C96DBFA004B10AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA321A01C96DBFA004B10AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AA3217F1C96DBFA004B10AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA321891C96DBFA004B10AF /* ViewController.swift in Sources */,
+				7AA321871C96DBFA004B10AF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA321931C96DBFA004B10AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA3219C1C96DBFA004B10AF /* PayAlertViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA3219E1C96DBFA004B10AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA321A71C96DBFA004B10AF /* PayAlertViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AA321991C96DBFA004B10AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AA321821C96DBFA004B10AF /* PayAlertView */;
+			targetProxy = 7AA321981C96DBFA004B10AF /* PBXContainerItemProxy */;
+		};
+		7AA321A41C96DBFA004B10AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AA321821C96DBFA004B10AF /* PayAlertView */;
+			targetProxy = 7AA321A31C96DBFA004B10AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AA3218A1C96DBFA004B10AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AA3218B1C96DBFA004B10AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AA3218F1C96DBFA004B10AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AA321901C96DBFA004B10AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AA321A91C96DBFA004B10AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AA321AA1C96DBFA004B10AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AA321AC1C96DBFA004B10AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PayAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fengzhi.PayAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7AA321AD1C96DBFA004B10AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PayAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fengzhi.PayAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7AA321AF1C96DBFA004B10AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PayAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fengzhi.PayAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayAlertView.app/PayAlertView";
+			};
+			name = Debug;
+		};
+		7AA321B01C96DBFA004B10AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PayAlertViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fengzhi.PayAlertViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayAlertView.app/PayAlertView";
+			};
+			name = Release;
+		};
+		7AA321B21C96DBFA004B10AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PayAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fengzhi.PayAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PayAlertView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7AA321B31C96DBFA004B10AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PayAlertViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fengzhi.PayAlertViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PayAlertView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AA3217E1C96DBFA004B10AF /* Build configuration list for PBXProject "PayAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA321A91C96DBFA004B10AF /* Debug */,
+				7AA321AA1C96DBFA004B10AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AA321AB1C96DBFA004B10AF /* Build configuration list for PBXNativeTarget "PayAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA321AC1C96DBFA004B10AF /* Debug */,
+				7AA321AD1C96DBFA004B10AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7AA321AE1C96DBFA004B10AF /* Build configuration list for PBXNativeTarget "PayAlertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA321AF1C96DBFA004B10AF /* Debug */,
+				7AA321B01C96DBFA004B10AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7AA321B11C96DBFA004B10AF /* Build configuration list for PBXNativeTarget "PayAlertViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA321B21C96DBFA004B10AF /* Debug */,
+				7AA321B31C96DBFA004B10AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AA3217B1C96DBFA004B10AF /* Project object */;
+}
