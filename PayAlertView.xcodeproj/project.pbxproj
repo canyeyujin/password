@@ -14,6 +14,7 @@
 		7AA321911C96DBFA004B10AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA3218F1C96DBFA004B10AF /* LaunchScreen.storyboard */; };
 		7AA3219C1C96DBFA004B10AF /* PayAlertViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA3219B1C96DBFA004B10AF /* PayAlertViewTests.swift */; };
 		7AA321A71C96DBFA004B10AF /* PayAlertViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA321A61C96DBFA004B10AF /* PayAlertViewUITests.swift */; };
+		7AA321B51C96DC0A004B10AF /* PayAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA321B41C96DC0A004B10AF /* PayAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		7AA321A21C96DBFA004B10AF /* PayAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AA321A61C96DBFA004B10AF /* PayAlertViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayAlertViewUITests.swift; sourceTree = "<group>"; };
 		7AA321A81C96DBFA004B10AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA321B41C96DC0A004B10AF /* PayAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				7AA321861C96DBFA004B10AF /* AppDelegate.swift */,
 				7AA321881C96DBFA004B10AF /* ViewController.swift */,
+				7AA321B41C96DC0A004B10AF /* PayAlert.swift */,
 				7AA3218A1C96DBFA004B10AF /* Main.storyboard */,
 				7AA3218D1C96DBFA004B10AF /* Assets.xcassets */,
 				7AA3218F1C96DBFA004B10AF /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AA321B51C96DC0A004B10AF /* PayAlert.swift in Sources */,
 				7AA321891C96DBFA004B10AF /* ViewController.swift in Sources */,
 				7AA321871C96DBFA004B10AF /* AppDelegate.swift in Sources */,
 			);
